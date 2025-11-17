@@ -1,0 +1,182 @@
+body{
+    height: 100vh;
+width: 98%;
+}
+header{
+    
+    display: flex;
+
+
+}
+header img{
+    margin-top: 20px;
+    height: 80px;
+margin-left: 20px;
+margin-bottom: 15px;
+}
+.container{
+    background-color:#98242a;
+    display: flex;
+    
+}
+
+.leftcontainer{
+    
+   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.textcontainer{
+    margin-top: 180px;
+}
+.leftcontainer h1{
+    font-family: sans-serif;
+    font-weight: 1000;
+    margin-left: 100px;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.leftcontainer p{
+     margin-left: 100px;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}
+.leftcontainer button{
+    width: 5px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 470px;
+}
+.button2{
+     width: 5px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+}
+.leftcontainer h2{
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: -20px;
+    font-family: sans-serif;
+    font-weight: 1000;
+}
+.rightcontainer{
+
+    width: 50%;
+}
+.container1{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+.container1 input{
+width: 400px;
+padding: 10px;
+background-color: transparent;
+border: 2px solid rgb(210, 208, 208);
+margin-left: 40px;
+
+}
+.container1 input::placeholder{
+    color:rgb(210, 208, 208);
+}
+.container1 input[type="text"]{
+    color: white;
+}
+.container2{
+    
+    width: 100%;
+    
+}
+.container2 h2{
+    font-family: sans-serif;
+margin-left: 40px;
+margin-top: 10px;
+font-weight: 1000;
+}
+.container2 p{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: -15px;
+    margin-left: 40px;
+}
+.maincheck{
+    
+    width: 100%;
+    display: flex;
+    margin: 10px;
+}
+.checkb{
+   
+    width: 50%;
+    color: white;
+}
+.checkb input{
+    
+    margin-left: 27px;
+    accent-color: transparent;
+background-color: brown;
+    
+}
+.checkb input[type="checkbox"]{
+    cursor: pointer;
+}
+
+.whitebutton{
+    
+    width: 10%;
+}
+.whitebutton button{
+    height: 15px;
+    justify-content: center;
+}
+.commentcontainer{
+
+    width: 100%;
+}
+.commentcontainer input{
+    border: 2px solid rgb(210, 208, 208);
+    margin-left: 40px;
+    width: 425px;
+    padding-bottom: 30px;
+    background-color: transparent;
+}
+.commentcontainer input::placeholder{
+    
+    color: rgb(210, 208, 208);
+}
+.commentcontainer input[type="text"]{
+    color: white;
+}
+.submitbutton{
+    
+    height: 200px;
+}
+.submitbtn{
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 5px;
+    font-size: 20px;
+}
+.triangle {
+      width: 0;
+    height: 0;
+    border-left: 85px solid transparent;
+    /* border-right: 50px solid transparent; */
+    border-bottom: 80px solid #fff;
+    float: right;
+    z-index: 1;
+    margin-top: -80px;
+    margin-left: -20px;
+}
