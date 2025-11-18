@@ -151,19 +151,16 @@ font-weight: 1000;
     height: 75px;
     width: 100%;
 }
-.lowerdiv input{
-    border: 2px solid rgb(210, 208, 208);
-    margin-left: 37px;
+.lowerdiv textarea{
     width: 68%;
+    margin-left: 34px;
+    height: 60px;
     background-color: transparent;
-    padding-bottom: 50px;
-    color: rgb(210, 208, 208);
-    word-wrap: break-word;
-    
+    border: 2px solid white;
+    color: white;
 }
-.lowerdiv input::placeholder{
-    color: rgb(210, 208, 208);
-
+.lowerdiv textarea::placeholder{
+    color: white;
 }
 .submitbtn{
     
